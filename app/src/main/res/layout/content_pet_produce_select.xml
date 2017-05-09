@@ -8,4 +8,62 @@
     tools:context="com.example.ds95_.myapplication.Pet_produce_select"
     tools:showIn="@layout/activity_pet_produce_select">
 
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="496dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="7dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="吊飾"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="345dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="149dp"
+                android:layout_height="128dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/images"
+                tools:layout_editor_absoluteX="214dp"
+                tools:layout_editor_absoluteY="24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="胸章"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="87dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="135dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/download"
+                tools:layout_editor_absoluteX="179dp"
+                tools:layout_editor_absoluteY="308dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
